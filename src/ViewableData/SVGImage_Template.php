@@ -1,8 +1,9 @@
 <?php
-
+namespace Restruct\SVGImages\ViewableData;
 // only extend if exists
-if(class_exists('SVGTemplate')) {
-
+if(class_exists('StevieMayhew\SilverStripeSVG\SVGTemplate')) {
+    use StevieMayhew\SilverStripeSVG\SVGTemplate;
+    
     class SVGImage_Template extends SVGTemplate
     {
 

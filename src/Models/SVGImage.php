@@ -1,6 +1,8 @@
 <?php
+namespace Restruct\SVGImages\Models;
+use Silverstripe\Assets\Image;
 
-class SVGImage extends \Image
+class SVGImage extends Image
 {
 
     private static $flush = false;

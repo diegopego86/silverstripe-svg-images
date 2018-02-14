@@ -8,7 +8,7 @@ LeftAndMain:
   extra_requirements_css:
     - 'svg-images/css/svg-images.css'
 
-File:
+Silverstripe\Assets\File:
   app_categories:
     image:
       - svg
